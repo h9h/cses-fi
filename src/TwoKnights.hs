@@ -5,7 +5,7 @@
   be placed on a k×k chessboard so that they do not attack each other.
 
   [source](https://math.stackexchange.com/questions/3266257/number-of-ways-two-knights-can-be-placed-such-that-they-dont-attack)
-  
+
   Note that when we have two knights threatening each other, it actually 
   forms either a 2×3 or 3×2 board. And for each of 2×3 and 3×2 boards, 
   there are 2 ways of placing two knights so that they threaten each other. 
@@ -29,12 +29,10 @@
   board must contain both of the knights.
 
 -}
+import Control.Monad ( forM_ ) 
 
 threats :: Int -> Int
 threats n = n^2 * (n^2 - 1) `quot` 2 - 4 * (n - 1) * (n - 2)
 
 main :: IO ()
-main = do
-  k <- readLn
-  let xs = [threats n | n <- [1..k]]
-  mapM_ print xs
+main = readLn >>= (\k -> forM_ [1..k] (print . threats))
