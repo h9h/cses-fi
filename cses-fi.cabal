@@ -29,9 +29,11 @@ library
       Lib
       MissingNumber
       MissingNumbers2
+      NumberSpiral
       Permutations
       Repetitions
       Repetitions2
+      TwoKnights
       WeirdAlgorithm
   other-modules:
       Paths_cses_fi
