@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      BitStrings
+      CoinPiles
       IncreasingArray
       Lib
       MissingNumber
@@ -33,6 +35,7 @@ library
       Permutations
       Repetitions
       Repetitions2
+      TrailingZeroes
       TwoKnights
       TwoSets
       WeirdAlgorithm
