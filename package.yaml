@@ -39,6 +39,7 @@ executables:
     - containers
     - mtl
     - bytestring
+    - text
 
 tests:
   cses-fi-test:
