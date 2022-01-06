@@ -27,6 +27,7 @@ library
   exposed-modules:
       BitStrings
       CoinPiles
+      GrayCode
       IncreasingArray
       Lib
       MissingNumber
