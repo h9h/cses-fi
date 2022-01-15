@@ -27,6 +27,7 @@ library
   exposed-modules:
       BitStrings
       CoinPiles
+      CreatingStrings
       GrayCode
       IncreasingArray
       Lib
@@ -37,6 +38,7 @@ library
       Permutations
       Repetitions
       Repetitions2
+      TowerOfHanoi
       TrailingZeroes
       TwoKnights
       TwoSets
